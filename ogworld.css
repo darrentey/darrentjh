@@ -1,0 +1,144 @@
+body {
+ background-image: url("memphis-colorful/memphis-colorful.png");
+ color: black;
+ /*text-align: center;*/
+ font-family: Roboto, Helveica;
+/* line-height: 1.4em;*/
+}
+
+article {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+ font-size: 60px;
+ color: forestgreen;
+}
+
+h2 {
+ font-size: 40px;
+ color: Red;
+}
+
+h4 {
+ font-size: 20px;
+ color: Goldenrod;
+}
+
+ul {
+ list-style-position: inside;
+}
+
+.top-part {
+ background-color: #FFE4E1;
+ /*margin: 30px;
+ margin-bottom: 50px;
+ padding: 25px;*/
+ border: 3.5px dotted honeydew;
+ border-radius: 20px;
+}
+
+img{
+ border-radius: 20px;	
+}
+
+.welcome {
+	width: 150px;
+	height: 150px;
+	border-radius: 90px;
+}
+
+section {
+ background-color: honeydew;
+ margin: 20px;
+ /*margin-bottom: 50px; 
+ margin-left: 60px;
+ margin-right: 60px;*/
+ padding: 25px;
+ border: 3.5px dotted #FFE4E1;
+ border-radius: 30px;
+}
+
+.box-colour {
+	background-color: rgb(245, 222, 179);
+}
+
+.good-vibes{
+	color: #7a00c0;
+}
+
+.red {
+	color: red;
+}
+.orange{
+	color: orange;
+}
+.yellow {
+	color: yellow;
+}
+.green {
+	color: green;
+}
+.blue {
+	color: blue;
+}
+.indigo {
+	color: indigo;
+}
+.violet {
+	color: violet;
+}
+
+/*layout styles*/
+#logo {
+	align-content: left;
+  	width: 80px;
+}
+
+header nav {
+  float: right;
+}
+
+/*.fixed-bar{
+	position: fixed;
+}*/
+
+@media (max-width: 480px){
+	header nav {
+		float: none; 
+  }
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 16px;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+article {
+  width: 600px;
+  float: left;
+}
+
+aside{
+  width: 300px;
+  float: right;
+}
+
+@media (max-width: 480px) {
+	aside {
+		width: 100%;
+
+	}
+}
+
+footer {
+	text-align: center;
+ 	clear: both;
+}
